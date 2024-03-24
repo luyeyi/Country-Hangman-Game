@@ -1,3 +1,39 @@
+# Country Hangman Game
+
+This Python script is a straightforward GUI-based game created with Tkinter, where players attempt to guess the name of a country. It puts a twist on the classic hangman game, with the twist being that all words to guess are names of countries.
+
+## How to Play
+
+When the game starts, players are presented with a series of underscores, each representing a letter in the name of the country to be guessed. Players have a limited number of chances to guess the letters correctly. Each incorrect guess results in a part of the hangman figure being drawn. The game concludes when the player successfully guesses the country's name or the hangman figure is fully drawn.
+
+## Features
+
+- **Simple GUI**: The game features an easy-to-navigate graphical user interface that is accessible for players of all ages.
+- **Dynamic Word Generation**: Each game session randomly selects a country name from a predefined list, ensuring a new challenge with each game.
+- **Visual Hangman Stages**: The game provides visual feedback through the progression of the hangman figure's stages as incorrect guesses are made.
+- **Interactive Buttons**: Players make guesses by clicking on buttons that represent each letter of the alphabet. Once a letter is used, it is disabled to prevent repetition.
+
+## Running the Game
+
+To play the game, you need to have Python installed on your computer along with the Tkinter library, which comes with standard Python distributions.
+
+1. **Copy the script**: Save the provided Python script as a `.py` file on your computer.
+2. **Open a terminal/command prompt**: Navigate to the directory where you saved the script.
+3. **Execute the script**: Run the command `python <script_name>.py`, replacing `<script_name>` with the name of your file.
+
+## Game Controls
+
+- **Alphabet Buttons**: Click these to guess a letter in the name of the country.
+- **New Game Button**: Resets the game, selecting a new country name and resetting the hangman figure.
+
+## Gameplay Elements
+
+- **Hangman Stages**: Offers visual feedback on your remaining chances through the construction stages of the hangman figure.
+- **Status Message**: Indicates the number of chances left or the end-game status (win/lose).
+- **Word Display**: Shows the correctly guessed letters in their respective positions and underscores for the remaining letters.
+
+This hangman game provides a fun way to test your knowledge of country names while engaging with the challenge of a hangman game. Whether you're looking for a quick diversion or a means to improve your geographical knowledge, this game serves as an engaging way to pass the time.
+
 # 国家挂人游戏
 
 这个Python脚本是一个基于Tkinter的简单图形界面游戏，玩家尝试猜测一个国家的名字。这是一个经典的挂人游戏，但有所不同——需要猜测的单词全都是国家名称。
